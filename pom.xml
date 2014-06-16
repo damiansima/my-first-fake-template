@@ -12,7 +12,7 @@
 	<groupId>org.mule.templates</groupId>
 	<artifactId>my-first-fake-template</artifactId>
 	<packaging>mule</packaging>
-	<version>1.0.4-SNAPSHOT</version>
+	<version>1.0.5-SNAPSHOT</version>
 	<name>MyFirstFakeTemplate Anypoint Template Project</name>
 
 	<properties>
