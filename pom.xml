@@ -35,7 +35,7 @@
 				<version>2.5</version>
 				<configuration>
 					<tagNameFormat>v@{project.version}</tagNameFormat>
-					<!-- <branchName>@{project.version}</branchName> -->
+					<branchName>{project.version}</branchName>
 					<!-- <updateBranchVersions>true</updateBranchVersions> -->
 					<updateWorkingCopyVersions>true</updateWorkingCopyVersions>
 					<pushChanges>false</pushChanges>
