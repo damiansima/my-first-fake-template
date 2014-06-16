@@ -12,7 +12,7 @@
 	<groupId>org.mule.templates</groupId>
 	<artifactId>my-first-fake-template</artifactId>
 	<packaging>mule</packaging>
-	<version>1.0.2-SNAPSHOT</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<name>MyFirstFakeTemplate Anypoint Template Project</name>
 
 	<properties>
@@ -34,7 +34,7 @@
 				<version>2.5</version>
 				<configuration>
 					<tagNameFormat>v@{project.version}</tagNameFormat>
-					<branchName>{project.version}</branchName>
+					<branchName>${project.version}</branchName>
 					<!-- <updateBranchVersions>true</updateBranchVersions> -->
 					<updateWorkingCopyVersions>true</updateWorkingCopyVersions>
 					<pushChanges>false</pushChanges>
